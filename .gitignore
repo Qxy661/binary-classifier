@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Data (large)
+data/
+raw/
+*.npz
+*.pt
+
+# Outputs
+outputs/*.png
+outputs/*.npz
+outputs/*.pt
+!outputs/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
