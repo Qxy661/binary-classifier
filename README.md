@@ -101,6 +101,13 @@ python scripts/predict.py --image img.jpg --framework pytorch
 3. 奶龙/塔菲数据可用，模型能区分
 4. 教学文档完整
 
+## 📚 文档导航
+
+| 文档 | 内容 |
+|---|---|
+| [技术总结](TECHNICAL_SUMMARY.md) | 成果概览（展示态）|
+| [docs/ 教学章节](docs/00-README.md) | 二分类原理与流程（学习态）|
+
 ## License
 
 MIT © Qxy661
