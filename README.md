@@ -70,6 +70,10 @@ python scripts/predict.py --image img.jpg --framework pytorch
 | **验证准确率** | **1.000（100%）** |
 | 识别验证 | 奶龙→milkdragon、塔菲→taffy，全部高置信 |
 
+**分类结果**（真实/预测标签，绿=正确）：
+
+![分类结果](classification_results.png)
+
 ### 猫狗基准（流程验证）
 
 **同条件对比（从零、无增强、20 epochs）：MiniTorch 0.543 vs PyTorch 0.500** —— 手写框架从零不输成熟框架！
