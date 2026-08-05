@@ -85,6 +85,10 @@ python scripts/predict.py --image img.jpg --framework pytorch
 | PyTorch 从零 + 增强 | 0.692 | 数据增强提升 |
 | **PyTorch 微调 ResNet18** | **0.895** | **最优（迁移学习，生态优势）**|
 
+**猫狗分类效果**（ResNet18 微调，真实/预测标签，绿=正确）：
+
+![猫狗分类结果](outputs/catdog_results.png)
+
 **两个核心洞察**：
 1. **MiniTorch 从零实现不输 PyTorch**——原理是对的，价值在理解
 2. **真正的差距在生态**——预训练模型（迁移学习）+ 增强库，是手写框架无法比的
